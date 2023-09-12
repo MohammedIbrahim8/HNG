@@ -8,7 +8,7 @@ app = FastAPI()
 slack_name = "Mohammed Ibrahim (mdjyoung)"
 track = "BackEnd"
 github_file_url = "https://github.com/MohammedIbrahim8"
-github_source_url = "Your GitHub Source URL"
+github_source_url = "https://github.com/MohammedIbrahim8/HNG.git"
 
 @app.get("/get_info/")
 async def get_info(slack_name: str, track: str):
